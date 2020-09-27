@@ -10,6 +10,8 @@
   <body>
       <div class="container">
         <div class="weather-app">
+          <div class="weather-app-wrapper">
+            <div class="overview">
     <h1>New York</h1>
     <ul>
       <li>
@@ -19,11 +21,18 @@
         Clear
       </li>
     </ul>
+    </div>
    <div class="row">
      <div class="col-6">
+       <div class="clearfix weather-temperature">
        <img src="https://duckduckgo.com/assets/weather/svg/new/partly-cloudy-night.svg"
-       alt="Clear"/>
-       12°C |  F
+       alt="Clear"
+       class="float-left"
+       />
+       <div class="float-left">
+      <strong>12</strong> °C |  F
+       </div>
+       </div>
        </div>
        <div class="col-6">
          <ul>
@@ -40,11 +49,11 @@
        </div>
        </div>
       </div>
-       <small>
-        <a href="https://github.com/Ewarbs/Vanilla-Weather-app" target="_blank"
-        >Open-source code</a>
-         by Emily Warburton
-       </small>
+      </div>
+      <small>
+        <a href="https://github.com/Ewarbs/Vanilla-Weather-app" target="_blank">Open-source code</a>
+        by Emily Warburton
+      </small>
     </div>
     <script src="src/app.js"></script>
   </body>

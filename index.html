@@ -6,6 +6,7 @@
     <title>Weather App</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
   <body>
       <div class="container">
@@ -30,7 +31,13 @@
        class="float-left"
        />
        <div class="float-left">
-      <strong>12</strong> °C |  F
+      <strong>12</strong>
+      <span class="units"
+      ><a href="#" id="celsius-link" class="active">°C</a>
+        <a href="#" id="fahrenheit-link">°F</a>
+
+      </span>
+    
        </div>
        </div>
        </div>

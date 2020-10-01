@@ -1,4 +1,4 @@
-let apiKey = "cbec302bbeb6e69212aeaf2b33e22b4c";
-letapiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&appid={apiKey`;
+let apiKey = "ce95360602ff5e38a7b8de4082604c06";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
 
 console.log(apiUrl);

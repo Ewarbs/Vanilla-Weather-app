@@ -13,14 +13,12 @@
         <div class="weather-app">
           <div class="weather-app-wrapper">
             <div class="overview">
-    <h1>London</h1>
+    <h1 id="city"></h1>
     <ul>
       <li>
         Friday 05:00
       </li>
-      <li>
-        Clear
-      </li>
+      <li id="description"></li>
     </ul>
     </div>
    <div class="row">
@@ -31,26 +29,22 @@
        class="float-left"
        />
        <div class="float-left">
-      <strong>12</strong>
+      <strong id="temperature"></strong> 
       <span class="units"
       ><a href="#" id="celsius-link" class="active">°C|</a>
         <a href="#" id="fahrenheit-link">°F</a>
 
       </span>
-    
        </div>
        </div>
        </div>
        <div class="col-6">
          <ul>
            <li>
-             Precipitation: 0%
+             Humidity: <span id="humidity"></span>%
            </li>
            <li>
-             Humidity: 3%
-           </li>
-           <li>
-             Wind: 2km/h
+             Wind: <span id="wind"></span>km/h
            </li>
          </ul>
        </div>

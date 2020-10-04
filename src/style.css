@@ -1,5 +1,5 @@
 h1 {
-  color: #878787;
+  color: #1f06fd;
   display: block;
   font-size: 30px;
   font-weight: 100;
@@ -20,7 +20,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #878787;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
@@ -35,7 +35,7 @@ li:first-letter {
 }
 
 .weather-forecast h3 {
-  color: rgb(133, 131, 131);
+  color: rgb(253, 253, 253);
   font-size: 14px;
   font-weight: 300;
   text-align: center;
@@ -54,7 +54,7 @@ li:first-letter {
 .weather-forecast-temperature {
   text-align: center;
   color: rgb(135, 135, 135);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 400;
   height: auto;
   line-height: 15px;
@@ -66,8 +66,9 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #3380e6;
   border-radius: 10px;
+  background-color: #aeccf3;
 }
 
 .overview {

@@ -16,6 +16,9 @@ ul {
   padding: 0;
 }
 
+small {
+  color: black;
+}
 li {
   list-style: none;
   margin: 0;
@@ -62,7 +65,7 @@ li:first-letter {
 }
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 .weather-app {
   padding: 20px;
